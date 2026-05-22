@@ -10,7 +10,7 @@ import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 import pytest
-from odonata.protocol.packet import build, validate, parse, checksum
+from process.protocol.packet import build, validate, parse, checksum
 
 
 # ---------------------------------------------------------------------------
